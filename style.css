@@ -27,3 +27,36 @@
 .items:hover{
     color: blue;
 }
+.main-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+
+    background-image: url("images/black\ backround\ image.avif"),linear-gradient(45deg,#000,#000);
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    background-size: cover;
+}
+.banner-img{
+    width: 450px;
+
+}
+.main-header{
+    font-size: 50px;
+    font-weight: bold;
+
+}
+.paragrap{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.btn{
+    background-color: red;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
