@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav-container{
+    background-color: rgb(19, 151, 74);
+    padding: 20px;
+    color:white;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.logo-img{
+    width: 160px;
+}
+.nav-list{
+    display: flex;
+    
+}
+.items{
+    font-size: 1.2rem;
+    margin-right: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+}
+.items:hover{
+    color: blue;
+}
