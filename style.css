@@ -167,3 +167,28 @@ hr{
 
 
 
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 576px) {
+    .nav-container,.nav-list,.main-container,.about-conteinar,.service-container,.main-footers  {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .banner-img {
+        width: 100%;
+    }
+    .main-container{
+        margin-top: 200px;
+    }
+    .about-text{
+        padding: 10px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 576px) and (max-width:768) {
+
+}
+
+
+
